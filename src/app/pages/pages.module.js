@@ -12,7 +12,6 @@
     'BlurAdmin.pages.ui',
     'BlurAdmin.pages.components',
     'BlurAdmin.pages.form',
-    'BlurAdmin.pages.tables',
     'BlurAdmin.pages.charts',
     'BlurAdmin.pages.maps',
     'BlurAdmin.pages.profile',
@@ -43,20 +42,7 @@
         blank: true
       }]
     });
-    baSidebarServiceProvider.addStaticItem({
-      title: 'Menu Level 1',
-      icon: 'ion-ios-more',
-      subMenu: [{
-        title: 'Menu Level 1.1',
-        disabled: true
-      }, {
-        title: 'Menu Level 1.2',
-        subMenu: [{
-          title: 'Menu Level 1.2.1',
-          disabled: true
-        }]
-      }]
-    });
+
   }
 
 })();

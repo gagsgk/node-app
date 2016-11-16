@@ -13,23 +13,23 @@
     var pieColor = baUtil.hexToRGB(baConfig.colors.defaultText, 0.2);
     $scope.charts = [{
       color: pieColor,
-      description: 'New Visits',
+      description: 'New INFFECTED USERS EACH DAY!',
       stats: '57,820',
       icon: 'person',
     }, {
       color: pieColor,
-      description: 'Purchases',
+      description: 'Average Money online per day.',
       stats: '$ 89,745',
       icon: 'money',
     }, {
       color: pieColor,
-      description: 'Active Users',
+      description: 'Active Threats per day!',
       stats: '178,391',
       icon: 'face',
     }, {
       color: pieColor,
-      description: 'Returned',
-      stats: '32,592',
+      description: 'Cyber Crime rate',
+      stats: '3 out of 10 users!',
       icon: 'refresh',
     }
     ];
